@@ -12,7 +12,7 @@ At the end of this workshop, you should know how to make these kinds of items:
 
 ![Moon Shoes](doc/MoonShoes.png)
 
-(yep, even the chestplate and the helmet was made using data-oriented items)
+(yep, even the chestplate and the helmet were made using data-oriented items)
 
 ## Let's Get The Party Started
 
