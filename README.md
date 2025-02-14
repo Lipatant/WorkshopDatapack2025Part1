@@ -91,3 +91,35 @@ You can now test if everything is working correctly. But before that, use the `/
 Now, you can use `/datapack list` and check if `[file/WorkshopPart1 (world)]` appears.
 
 ![There are 2 datapack(s) enabled](doc/DatapackList.png)
+
+## Iron Man
+
+For the following steps, we will be making a custom robot helmet, effectively teaching us the basics of custom items.
+
+We've included, in the `data/workshop/recipe` directory a file named `antenna.json`.
+
+Currently, it allows us to craft an Iron Helmet made from Copper Ingots.
+
+![Iron Helmet](doc/IronHelmet.png)
+
+Our first goal will be to rename our item to `Antenna` by overwriting the `minecraft:item_name` component. (see [Data component format](https://minecraft.wiki/w/Data_component_format))
+
+![Antenna](doc/Antenna.png)
+
+## Payphone
+
+It's an antenna, but in name only. Let's fix it!
+
+Find the component responsible for the item's appearance and overwrite it for `minecraft:lightning_rod`.
+
+Our helmet will still be technically an Iron Helmet, but it will look like a Lightning Rod.
+
+![Antenna](doc/AntennaItemModel.png)
+
+However, now we still have an issue: when equipped, our item keeps its original appearance.
+
+We'll have to overwrite the `minecraft:equippable` component. We'll only write the `slot` key and its value.
+
+![Antenna](doc/AntennaEquippableSlot.png)
+
+Beep Boop!
