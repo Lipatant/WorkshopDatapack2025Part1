@@ -123,3 +123,65 @@ We'll have to overwrite the `minecraft:equippable` component. We'll only write t
 ![Antenna](doc/AntennaEquippableSlot.png)
 
 Beep Boop!
+
+## Under Pressure
+
+So, it's just a reskinned Iron Helmet, right? WRONG! Well, right for now, but not for long.
+
+Minecraft manages certain entity values through attributes.
+
+If you go on [Attribute](https://minecraft.wiki/w/Attribute), you'll see those usable by the player are :
+
+- Armor
+- Armor Thoughness (on Diamond and Netherite Armor)
+- Attack Damage
+- Attack Knockback
+- Attack Speed
+- Block Break Speed
+- Block Interaction Range
+- Burning Time (on the reworked [Fire Protection](https://minecraft.wiki/w/Fire_Protection))
+- Entity Interaction Range
+- Explosion Knockback Resistance (on the reworked [Blast Protection](https://minecraft.wiki/w/Blast_Protection))
+- Fall Damage Multiplier
+- Knockback Resistance
+- Gravity
+- Jump Strenght
+- Luck (for fishing, not really used as an attribute but weirdly affected by [Luck of the Sea](https://minecraft.wiki/w/Luck_of_the_Sea))
+- Max Absorption (yellow hearts)
+- Max Health (red hearts)
+- Mining Efficiency
+- Movement Efficiency
+- Movement Speed
+- Oxygen Bonus
+- Safe Fall Distance
+- Scale (weirdly fun to mess around)
+- Sneaking Bonus
+- Step Height
+- Submerged Mining Speed
+- Sweeping Damage Ratio
+- Water Movement Efficiency
+
+You didn't read at least half of it, did you?
+
+Now, let's pick an attribute to mess with on our Antenna. What about... Scale?
+
+Ok, we will overwrite here the `minecraft:attribute_modifiers` component and define an attribute `scale` that grants `-50%` when on Head, with an id of `minecraft:armor.helmet`.
+
+![Antenna -50% Scale](doc/AntennaScale.png)
+
+Cool, but we lost our `+2 Armor` default attribute, so we'll have to add it and...
+
+![Antenna +2 Armor -50% Scale](doc/AntennaArmor.png)
+
+Done! Now we're smoool!
+
+## Bonus
+
+Now that we've done that, you can add:
+
+- Propeller Hat: A helmet that can act as an Elytra.
+- Fishing Jacket: A chestplate that increases for luck, for fishermen obviously.
+- Big Legs: Leggings that increase your scale.
+- Moon Shoes: Boots that reduce the player's gravity.
+- Drilling Pickaxe: A pickaxe with increased mining effiency.
+- Battle Shield: A shield that can be used as a weapon.
