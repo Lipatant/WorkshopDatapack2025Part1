@@ -89,3 +89,5 @@ You can now test if everything is working correctly. But before that, use the `/
 **You'll have to use this command after every change on your code**.
 
 Now, you can use `/datapack list` and check if `[file/WorkshopPart1 (world)]` appears.
+
+![There are 2 datapack(s) enabled](doc/DatapackList.png)
