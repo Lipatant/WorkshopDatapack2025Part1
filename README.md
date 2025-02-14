@@ -48,6 +48,7 @@ But what about `targets`? Well, here's a little cheat sheet:
 
 | Selector              | Meaning           | Description                               |
 | -------------         | -------------     | -------------                             |
+| (player's name)       |                   | The selected **player**                   |
 | @a                    | All               | All the **players**                       |
 | @e                    | Everyone          | All the **entites** (players, mobs...)    |
 | @n                    | Nearest           | The nearest **entity**                    |
