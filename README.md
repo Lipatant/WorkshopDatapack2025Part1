@@ -16,6 +16,8 @@ At the end of this workshop, you should know how to make these kinds of items:
 
 ## Let's Get The Party Started
 
+Put on your [favourite music](https://open.spotify.com/playlist/5WPxmg5zHF4pgwGAemsPKX?si=5ddddcd87347437d) because we're starting here!
+
 We'll assume you already own Minecraft for Java (legally). You can do this Workshop on both Windows, Mac and Linux.
 
 Launch Minecraft in the **lastest version** (1.21.4). This is important since the Datapack formating is reguarly updated.
